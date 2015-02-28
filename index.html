@@ -10,11 +10,33 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
+    <div class="container">
+        <form autocomplete="on" name="contact-info" id="contactForm">
+          <fieldset id="basic-fields">
+              <legend>Basic Info</legend>
+              
+              <label for="first">First Name *</label>
+              <input required id="first" type="text" name="first" class="field" />
+
+              <label for="last">Last Name *</label>
+              <input required id="last" type="text" name="last" class="field" id="lastName" />
+
+              <label for="email">Email *</label>
+              <input required id="email" type="email" name="email" placeholder="user@someplace.com" class="field" id="email" />
+              
+              <label for="message">Message</label>
+              <textarea cols="35" rows="4" wrap="hard" id="message" name="message" placeholder="Message" class="field" ></textarea>
+          </fieldset>
+
+          <div class="button-group">
+            <input type="submit" value="Send Message" name="submit" />
+            <input type="reset" value="Reset" name="reset" />
+        </div>
+    </form>
+</div>
 
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

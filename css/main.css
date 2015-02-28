@@ -1,0 +1,97 @@
+/******************************************
+*             GENERAL RULES               *
+******************************************/
+
+body {
+    background-color: #B6DED4;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/******************************************
+*            FIELDSET RULES               *
+******************************************/
+
+fieldset {
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+fieldset legend {
+    background: #65a397;
+    padding: 6px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/******************************************
+*               FORM RULES                *
+******************************************/
+
+form {
+    margin: 0 auto;
+    width: 334px;
+}
+
+label, .pseudo-label {
+    display: block;
+    width: 280px;
+    margin: 4px 10px 1px 10px;
+    text-align: left;
+}
+
+textarea, .button-group {
+    display: block;
+    width: 280px;
+    height: 30px;
+    padding: 5px 10px 0px 10px;
+    margin: 0px 0px 10px 10px;
+}
+
+textarea {
+    width: 280px;
+    height: 90px;
+}
+
+.button-group {
+    padding: 0px;
+}
+
+input[type="text"],input[type="email"] {
+    display: block;
+    width: 280px;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 10px 10px;
+}
+
+.field {
+    background: #C2E2DF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;                 
+}
+
+input[type=submit],input[type=reset] {
+    height: 30px;
+    padding: 5px 15px; 
+    margin: 0 10px 0 0; 
+    font-weight: bold;
+    background: #65a397;
+    border: 1px solid #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
