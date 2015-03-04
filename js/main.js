@@ -18,7 +18,7 @@ theHeading.addEventListener( "click", function () {
     newPara.innerHTML = "This is click number " + numClicks;
 
     // now put the new paragraph in the document
-    theHeading.appendChild( newPara );
+    document.body.appendChild( newPara );
 })
 
 
