@@ -9,8 +9,8 @@ var theForm = document.getElementById( "contactForm" );
 // ******************************************
 
 // Listens for Click event on form element (id = contactForm) and logs form fields (if provided)
-theForm.addEventListener( "submit", function (clickEvent) {
-
+theForm.addEventListener( "submit", function (event) {
+    event.preventDefault();
     // log the form fields
     console.log( "The firstName is: " + document.getElementById("first").value);
     console.log( "The lastName is: " + document.getElementById("last").value);
